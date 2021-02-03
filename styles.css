@@ -182,10 +182,10 @@ body, html {
 }
 
 .embedded-video-16-9 {
-    width:  80vw;
-    height: 45vw; /* 80*9/16 */
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width:  80%;
+    height: 45%; /* 80*9/16 */
+    margin-left: 5%;
+    margin-right: 5%;
   }
   
 @media (min-width: 893px) {
@@ -193,6 +193,8 @@ body, html {
         width: 45vw;
         height: 25.3125vw; /* 45*9/16 */
         margin-left: 2vw;
-        margin-right: 2vw
+        margin-right: 2vw;
+        max-width: 800px;
+        max-height: 450px;
     }
 }
